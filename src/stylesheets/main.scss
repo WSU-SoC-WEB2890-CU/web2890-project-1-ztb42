@@ -1,3 +1,11 @@
-/* Your styles go here */
-@import "bootstrap/scss/bootstrap.scss";
-@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "custom";
+
+// Section imports
+@import "hero";
+@import "how-it-works";
+@import "advantages";
+@import "testimonials";
+@import "selling-point";
+@import "recents";
+@import "faqs";
+@import "footer";

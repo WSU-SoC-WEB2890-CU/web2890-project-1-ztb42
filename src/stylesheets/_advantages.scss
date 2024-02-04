@@ -1,0 +1,30 @@
+.advantages {
+    background-color: darken($white, 5%);
+
+    ul {
+        list-style: upper-roman;
+        width: 75%;
+        margin: 0 auto;
+        font-size: 1.25rem;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+        opacity: 0;
+        transform: translateX(100px);
+        transition: opacity 1s, transform 1s;
+    }
+
+    li.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    img {
+        @media (max-width: 768px) {
+            margin-bottom: 2rem;
+        }
+    }
+}

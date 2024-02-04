@@ -1,0 +1,19 @@
+.how-it-works {
+    .tabs {
+        width: 80%;
+        margin: 0 auto;
+        background-color: $green-light;
+        padding: 1.5rem;
+        border-radius: 10px;
+        border: 1px solid darken($green-light, 15%);
+        font-size: 1.25rem;
+
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    .tab-pane {
+        padding: 0 1rem;
+    }
+}

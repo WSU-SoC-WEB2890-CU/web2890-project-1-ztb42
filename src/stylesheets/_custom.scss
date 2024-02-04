@@ -1,0 +1,47 @@
+$green-dark: #345241;
+$green: #55856a;
+$green-light: #b4dac4;
+$orange-dark: #d96b00;
+$orange-light: #ffe0a8;
+$brown: #857355;
+$white: #eee;
+$gray-light: #babbbc;
+
+$primary: $green;
+$secondary: $brown;
+
+$accordion-padding-y: 1.25rem;
+$accordion-border-radius: 12px;
+$accordion-bg: lighten($green-light, 15%);
+$accordion-button-active-bg: lighten($green-light, 15%);
+
+$accordion-button-focus-box-shadow: 0 0 0 0.15rem rgba($orange-dark, 0.2);
+$accordion-button-color: $green-dark;
+$accordion-button-active-color: $orange-dark;
+
+$accordion-icon-color: $green;
+$accordion-icon-active-color: $orange-dark;
+
+$accordion-button-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='#{$accordion-icon-color}' class='bi bi-plus-circle-fill' viewBox='0 0 16 16'><path d='M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z'/></svg>");
+$accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='#{$accordion-icon-active-color}' class='bi bi-dash-circle-fill' viewBox='0 0 16 16'><path d='M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7z'/></svg>");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+html {
+    background-color: $white;
+    font-size: 16px;
+}
+
+body {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Nunito", sans-serif;
+    }
+}
+
+@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap-icons/font/bootstrap-icons.css";
